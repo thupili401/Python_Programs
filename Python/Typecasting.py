@@ -1,0 +1,12 @@
+a=10
+print(a)
+print(type(a))
+a="10"
+print(a)
+print(type(a))
+a=int("10")
+print(a)
+print(type(a))
+a=float(10)
+print(a)
+print(type(a))

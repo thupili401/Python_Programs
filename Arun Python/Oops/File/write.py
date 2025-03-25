@@ -1,0 +1,8 @@
+file=open("/Users/sreekantht/Desktop/pyt.text",'w')
+file.write("My name is sreekanth1\n")
+file.write("My name is sreekanth2\n")
+file.write("My name is sreekanth3\n")
+file.write("My name is sreekanth4\n")
+file.write("My name is sreekanth5\n")
+file.close()
+print("done")

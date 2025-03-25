@@ -1,0 +1,5 @@
+file=open("/Users/sreekantht/Desktop/pyt.text",'a')
+file.write("s,dflffbf,ds nf")
+file.write("jhefbjf m,nf ew,f,")
+file.close()
+print(file.read())
