@@ -1,13 +1,13 @@
-s='a1b2c3d4e5'
-letters=[]
-numbers=[]
-for i in s:
-    if i.isalpha():
-        letters.append(i)
-    elif i.isdigit():
-        numbers.append(i)
-letters.sort()
-numbers.sort()
-result=''.join(letters)+''.join(numbers)
-print(result)
-
+def seq_arr(st):
+    letters=[]
+    numbers=[]
+    for i in st:
+        if i.isalpha():
+            letters.append(i)
+        elif i.isdigit():
+            numbers.append(i)
+    letters.sort()
+    numbers.sort()
+    print(' '.join(letters)+ ' '.join(numbers))
+st=input('Enter the alphanuamric : ')
+seq_arr(st)
